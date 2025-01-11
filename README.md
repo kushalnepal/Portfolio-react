@@ -1,109 +1,39 @@
-# Portofolio V5
-Halo semuanya!
-Perkenalkan, saya Eki Zulfar Rachman, dan pada kesempatan kali ini, saya ingin berbagi proyek website portofolio yang telah saya kembangkan.
 
-Tech Stack yang digunakan:
-- ReactJS
-- Tailwind CSS
-- AOS
-- Firebase
-- Framer Motion
-- Lucide
-- Material UI
-- SweetAlert2
+# My Portfolio
 
-Link Website:
-https://www.eki.my.id/
+Welcome to my GitHub portfolio! This repository contains my personal projects, which demonstrate my skills in various technologies and development methodologies.
 
-We would appreciate it if you would like to use this project, please include our credit in your use. Thank You! 🙏
+## About Me
 
-# Tutorial Menjalankan Project
+Hi, I'm **Kushal Nepal**, a passionate and dedicated IT student with a focus on full-stack web development. I am experienced in technologies such as **JavaScript**, **React**, **Node.js**, **PHP**, **Tailwind CSS**, and **Next.js**. I am currently learning more about the **MERN stack**, **Docker**, and other cutting-edge tools.
 
-Berikut ini adalah panduan sederhana untuk menjalankan project ini.
+## What You’ll Find in This Portfolio
 
-## Persiapan
+This portfolio includes a collection of projects I've worked on, such as:
 
-Pastikan Anda sudah menginstal:
+- **Web Development Projects**: Full-stack web apps built with the **MERN stack** and **Next.js**, focusing on clean code and responsive design.
+- **Design & Frontend**: UI/UX designs made using **Figma** and **Canva**, along with implementation using **HTML**, **CSS**, and **Tailwind CSS**.
+- **Database Work**: Projects involving **MongoDB** and **MySQL**, demonstrating database management and API development.
+- **Other Tools**: Docker for containerization, GitHub for version control, and **Netlify** for deploying websites.
 
-- **Node.js** 
+## How to Use My Projects
 
-## Langkah-Langkah Menjalankan Project
+To explore my projects, clone this repository to your local machine:
 
-1. **Download project ini:**
+```bash
+git clone https://github.com/kushalnepal/portfolio-react.git
+```
 
-   ```bash
-   git clone https://github.com/EkiZR/Portofolio_V5.git
-   ```
+Each project contains its own `README.md` with detailed instructions on how to run and interact with it. Feel free to check out the code, contribute, or get in touch!
 
-2. **Install semua kebutuhan:**
+## Connect with Me
 
-   ```bash
-   npm install
-   ```
-   atau dengan cara
-   
-    ```bash
-   npm install --legacy-peer-deps
-   ```
+- **Email**: kushal1212@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/kushalnepal/
+- **Website**: www.kushalnepal.com.np
 
-4. **Jalankan project:**
-   
-   ```bash
-   npm run dev
-   ```
+Thanks for checking out my portfolio! Feel free to explore and let me know if you have any questions or feedback.
 
-6. **Buka di browser:**
+---
 
-   Akses aplikasi di browser Anda melalui link yang muncul di terminal.
-
-## Membuat Versi Siap Produksi
-
-Untuk membuat versi siap produksi (production build):
-
-1. Jalankan perintah build:
-
-   ```bash
-   npm run build
-   ```
-
-2. File hasil build akan tersimpan di folder `dist`. Anda dapat mengunggah folder ini ke server hosting Anda.
-
-## Catatan
-
-Jika ada masalah saat menjalankan project, pastikan:
-
-- Node.js sudah terinstal dengan benar.
-- Anda berada di folder project yang benar.
-- Semua kebutuhan terinstal tanpa error.
-
-## Konfigurasi Firebase
-
-Untuk melakukan konfigurasi Firebase dalam project ini, ikuti langkah berikut:
-
-1. **Tambahkan Firebase ke Project:**
-   - Buka [Firebase Console](https://console.firebase.google.com/).
-   - Buat project baru atau gunakan project yang sudah ada.
-
-2. **Pilih Firestore Database**
-   - Create Database
-
-3. **Pergi Ke Project Setting**
-    - Klik pada bagian : ![Screenshot 2024-12-30 214204](https://github.com/user-attachments/assets/43243cad-b414-4dd9-8793-d15c401c82fe)
-    - Nanti copy isi firebas confignya ![image](https://github.com/user-attachments/assets/6d0e158c-1ae0-40c1-8b41-9e53a1c4ccbb)
-
-4. **Pergi Ke Rules**
-   - Ubah rulesnya jadi true
-
-5. Sesuaikan Struktur Collection seperti gambar berikut
-  ![Screenshot 2025-01-03 001341](https://github.com/user-attachments/assets/38580122-08a4-4499-a8fd-0f253652a239)
-![Screenshot 2025-01-03 001410](https://github.com/user-attachments/assets/d563d7ad-f1ab-46ff-8185-640dcebd0363)
-
-6. **Buka file firebase.js dan firebase-comment.js** 
-   - Ganti isi firebaseConfig dengan config firebase anda
-
-
-
-    
-      
-
-
+You can customize this template to include specific project names and links to give visitors more insight into your work!
