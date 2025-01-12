@@ -2,7 +2,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { ArrowUpRight, Award, Code, FileText, Globe, Sparkles } from "lucide-react";
 import React, { memo, useEffect, useMemo } from "react";
-import imgg from "../../dist/photo.jpg";
 
 // Memoized Components
 const Header = memo(() => (
@@ -51,7 +50,7 @@ const ProfileImage = memo(() => (
           <div className="absolute inset-0 bg-gradient-to-t from-purple-500/20 via-transparent to-blue-500/20 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-700 hidden sm:block" />
           
           <img
-            src={imgg}
+            src={'photo.jpg'}
             alt="Profile"
             className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 group-hover:rotate-2"
             loading="lazy"

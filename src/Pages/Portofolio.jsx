@@ -4,7 +4,7 @@ import React, { useState } from "react";
 const projects = [
   {
     title: "Login Validation",
-    imgSrc: "../../dist/Login.png",
+    imgSrc: "Login.png",
     link: "https://github.com/kushalnepal/backend",
     tags: ["nodejs", "modular", "backend"],
     category: "website",
@@ -13,7 +13,7 @@ const projects = [
   },
   {
     title: "Amazon clone",
-    imgSrc: "../../dist/Amazon clone.png",
+    imgSrc: "Amazon clone.png",
     link: "https://hungry-shockley-0bea14.netlify.app/",
     tags: ["React", "frontend", "Website"],
     category: "website",
@@ -22,7 +22,7 @@ const projects = [
   },
   {
     title: "Expensetracker",
-    imgSrc: "../../dist/Expensetracker.png",
+    imgSrc: "Expensetracker.png",
     link: "https://expense-tracker-29e8jeyz4-kushalnepals-projects.vercel.app/",
     tags: ["NEXT js", "Nodejs", "WebApp"],
     category: "webapp",
@@ -31,7 +31,7 @@ const projects = [
   },
   {
     title: "TicTacToe Game",
-    imgSrc: "../../dist/Tictactoe.png",
+    imgSrc: "Tictactoe.png",
     link: "https://tic.kushalnepal.com.np/",
     tags: ["HTML&CSS", "JavaScript", "Game"],
     category: "game",
@@ -40,7 +40,7 @@ const projects = [
   },
   {
     title: "GPA checker",
-    imgSrc: "../../dist/Gpa-checker.png",
+    imgSrc: "Gpa-checker.png",
     link: "https://kushalnepal.github.io/GPA-checker/",
     tags: ["HTML&CSS", "JavaScript", "App"],
     category: "website",
@@ -49,7 +49,7 @@ const projects = [
   },
   {
     title: "To do list",
-    imgSrc: "../../dist/mytodolist.png",
+    imgSrc: "mytodolist.png",
     link: "https://kushalnepal.github.io/Javascript-to-do-list/",
     tags: ["HTML&CSS", "JavaScript", "Web App"],
     category: "webapp",
