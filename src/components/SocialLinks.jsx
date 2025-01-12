@@ -23,7 +23,7 @@ const socialLinks = [
     displayName: "Instagram",
     subText: "@kushalnepal",
     icon: Instagram,
-    url: "https://www.instagram.com/kushalnepal",
+    url: "https://www.instagram.com/kushal_np",
     color: "#E4405F",
     gradient: "from-[#833AB4] via-[#E4405F] to-[#FCAF45]"
   },
@@ -32,7 +32,7 @@ const socialLinks = [
     displayName: "Youtube",
     subText: "@Kushalnepal",
     icon: Youtube,
-    url: "https://www.youtube.com/@Kushalnepal",
+    url: "https://www.youtube.com/@codetech-58",
     color: "#FF0000",
     gradient: "from-[#FF0000] to-[#CC0000]"
   },
