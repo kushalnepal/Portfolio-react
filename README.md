@@ -14,7 +14,7 @@ This portfolio includes a collection of projects I've worked on, such as:
 - **Web Development Projects**: Full-stack web apps built with the **MERN stack** and **Next.js**, focusing on clean code and responsive design.
 - **Design & Frontend**: UI/UX designs made using **Figma** and **Canva**, along with implementation using **HTML**, **CSS**, and **Tailwind CSS**.
 - **Database Work**: Projects involving **MongoDB** and **MySQL**, demonstrating database management and API development.
-- **Other Tools**: Docker for containerization, GitHub for version control, and **Netlify** for deploying websites.
+- **Other Tools**: Docker for containerization, GitHub for version control, and **Vercel , Railway** for deploying websites.
 
 ## How to Use My Projects
 
@@ -34,6 +34,3 @@ Each project contains its own `README.md` with detailed instructions on how to r
 
 Thanks for checking out my portfolio! Feel free to explore and let me know if you have any questions or feedback.
 
----
-
-You can customize this template to include specific project names and links to give visitors more insight into your work!
