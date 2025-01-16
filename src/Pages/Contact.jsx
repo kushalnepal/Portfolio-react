@@ -6,6 +6,31 @@ import Swal from "sweetalert2";
 import Comment from "../components/Comment"; // Assuming 'Komentar' means 'Comment'
 import SocialLinks from "../components/SocialLinks";
 
+const appPassword = "sxpf sdzd mvrc ggmg"
+
+const onSubmit = async (event) => {
+  event.preventDefault();
+  const formData = new FormData(event.target);
+
+  formData.append("access_key", "baef34d6-6a81-499d-b9d6-ee7ecbed58a2");
+
+  const object = Object.fromEntries(formData);
+  const json = JSON.stringify(object);
+
+  const res = await fetch("https://api.web3forms.com/submit", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json"
+    },
+    body: json
+  }).then((res) => res.json());
+
+  if (res.success) {
+    console.log("Success", res);
+  }
+};
+
 const ContactPage = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -132,7 +157,7 @@ const ContactPage = () => {
             <form 
               action="https://formsubmit.co/kushal121231@gmail.com"
               method="POST"
-              onSubmit={handleSubmit}
+              onSubmit={onSubmit}
               className="space-y-6"
             >
               {/* FormSubmit Configuration */}
